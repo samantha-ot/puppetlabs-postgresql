@@ -54,6 +54,7 @@ define postgresql::server::config_entry (
     'max_replication_slots'               => undef,   # New on 9.4
     'track_commit_timestamp'              => undef,   # New on 9.5
     'hot_standby'                         => undef,
+    'max_logical_replication_workers'     => undef,                              
     'logging_collector'                   => undef,
     'cluster_name'                        => undef,   # New on 9.5
     'silent_mode'                         => '9.2',   # Removed
